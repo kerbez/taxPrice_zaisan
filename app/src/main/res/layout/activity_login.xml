@@ -5,25 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#000"
     tools:context="com.example.kerbe.tacksa.LoginActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FF0"
         android:text="логин"/>
     <EditText
         android:id="@+id/login_et"
+        android:background="#FA0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FF0"
         android:text="пароль"/>
     <EditText
         android:id="@+id/password_et"
+        android:background="#FA0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
         android:id="@+id/login_b"
+        android:background="@drawable/button_primary_selector"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

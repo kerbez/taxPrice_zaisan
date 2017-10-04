@@ -66,23 +66,5 @@ public class AdminActivity extends AppCompatActivity {
 
             }
         });
-       /* add_to_list.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                SharedPreferences sPref = getPreferences(MODE_PRIVATE);
-                SharedPreferences.Editor ed = sPref.edit();
-                Set<String> myset = new HashSet<String>(Arrays.asList(fromm));
-                myset.add(add_et.getText().toString());
-                ed.putStringSet(SAVED_TEXT, myset);
-                ed.commit();
-                Toast.makeText(getBaseContext(), "Text saved", Toast.LENGTH_SHORT).show();
-
-
-                sPref = getPreferences(MODE_PRIVATE);
-                Set<String> myyset = sPref.getStringSet(SAVED_TEXT,null);
-                fromm = myyset.toArray(new String[myyset.size()]);
-                Toast.makeText(getBaseContext(), "Text loaded", Toast.LENGTH_SHORT).show();
-            }
-        });*/
     }
 }
