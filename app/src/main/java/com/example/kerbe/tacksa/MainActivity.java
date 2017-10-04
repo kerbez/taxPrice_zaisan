@@ -130,13 +130,13 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel:" + "87474089575"));
+                callIntent.setData(Uri.parse("tel:" + "87764471177"));
                 startActivity(callIntent);
 
             }
             else {
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel:" + "87474089575"));
+                callIntent.setData(Uri.parse("tel:" + "87764471177"));
                 startActivity(callIntent);
             }
         }
